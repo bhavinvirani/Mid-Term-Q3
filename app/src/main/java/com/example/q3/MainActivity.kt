@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
             // Intent to launch the first app
             val intent = Intent()
             intent.setClassName("com.example.q1", "com.example.q1.MainActivity")
-            intent.putExtra("extraData", "Data from HubApp to App 1")
+            intent.putExtra("extraData", "Data from Q3 to App 1")
             startActivity(intent)
         }
 
@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             // Intent to launch the second app
             val intent = Intent()
             intent.setClassName("com.example.q2", "com.example.q2.MainActivity")
-            intent.putExtra("extraData", "Data from HubApp to App 2")
+            intent.putExtra("extraData", "Data from Q3 to App 2")
             startActivity(intent)
         }
     }
